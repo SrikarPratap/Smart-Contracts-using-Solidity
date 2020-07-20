@@ -33,8 +33,7 @@ contract Election {
         candidate.push(Candidate(_name,0));
     }
     
-    function getNumCandidate() public view returns
-    (uint) {
+    function getNumCandidate() public view returns(uint) {
         returns candidates.length;
     }
     
